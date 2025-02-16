@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           appBar: AppBar(
-            centerTitle: true,
             title: Text(
               'Flutter Demo',
               style: TextStyle(
@@ -27,81 +26,122 @@ class MyApp extends StatelessWidget {
           ),
           body: Container(
             height: double.infinity,
+            width: double.infinity,
             color: Colors.grey[200],
             padding: EdgeInsets.all(20.0),
-            child: SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                  Icon(
-                    Icons.star_border,
-                    color: Colors.grey,
-                    size: 40.0,
-                  ),
-                ],
-              ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: Colors.red,
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 20.0),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 165, 244, 54),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 146, 54, 244),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 244, 54, 155),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 20.0), 
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: Colors.red,
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 20.0),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 165, 244, 54),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 146, 54, 244),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Container(
+                        color: const Color.fromARGB(255, 244, 54, 155),
+                        child: Text(
+                          "1",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 20.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              
+              ],
             ),
           ),
           //SizedBox(height: 20.0),
