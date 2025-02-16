@@ -29,119 +29,48 @@ class MyApp extends StatelessWidget {
             width: double.infinity,
             color: Colors.grey[200],
             padding: EdgeInsets.all(20.0),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: Colors.red,
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 20.0),
-                        ),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+              child: Column(
+                children: [
+                  Icon(Icons.account_circle, size: 50.0, color: Colors.grey[800]),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.account_circle,
+                        size: 50.0,
+                        color: Colors.grey[800],
                       ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 165, 244, 54),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
+                      Icon(
+                        Icons.account_circle,
+                        size: 50.0,
+                        color: Colors.grey[800],
                       ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 146, 54, 244),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.account_circle,
+                        size: 50.0,
+                        color: Colors.grey[800],
                       ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 244, 54, 155),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
+                      Icon(
+                        Icons.account_circle,
+                        size: 50.0,
+                        color: Colors.grey[800],
                       ),
-                    ),
-                  ],
-                ),
-                SizedBox(height: 20.0), 
-                Row(
-                  children: [
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: Colors.red,
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 20.0),
-                        ),
+                      Icon(
+                        Icons.account_circle,
+                        size: 50.0,
+                        color: Colors.grey[800],
                       ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 165, 244, 54),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 146, 54, 244),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Container(
-                        color: const Color.fromARGB(255, 244, 54, 155),
-                        child: Text(
-                          "1",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              
-              ],
+                    ],
+                  )
+                ],
+              ),
             ),
           ),
           //SizedBox(height: 20.0),
