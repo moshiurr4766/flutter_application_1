@@ -28,36 +28,80 @@ class MyApp extends StatelessWidget {
           body: Container(
             height: double.infinity,
             color: Colors.grey[200],
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.star,
-                  color: Colors.grey,
-                  size: 40.0,
-                ),
-                Icon(
-                  Icons.star,
-                  color: Colors.grey,
-                  size: 40.0,
-                ),
-                Icon(
-                  Icons.star,
-                  color: Colors.grey,
-                  size: 40.0,
-                ),
-                Icon(
-                  Icons.star,
-                  color: Colors.grey,
-                  size: 40.0,
-                ),
-                Icon(
-                  Icons.star_border,
-                  color: Colors.grey,
-                  size: 40.0,
-                ),
-              ],
+            padding: EdgeInsets.all(20.0),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                  Icon(
+                    Icons.star_border,
+                    color: Colors.grey,
+                    size: 40.0,
+                  ),
+                ],
+              ),
             ),
           ),
           //SizedBox(height: 20.0),
